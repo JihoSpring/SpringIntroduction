@@ -5,7 +5,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
-import hello.hellospring.domain.Member;
+import hello.hellospring_component_scan.domain.Member;
+import hello.hellospring_component_scan.repository.MemoryMemberRepository;
 
 class MemoryMemberRepositoryTest {
 

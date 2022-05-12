@@ -8,8 +8,9 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import hello.hellospring.domain.Member;
-import hello.hellospring.repository.MemoryMemberRepository;
+import hello.hellospring_component_scan.domain.Member;
+import hello.hellospring_component_scan.repository.MemoryMemberRepository;
+import hello.hellospring_component_scan.service.MemberService;
 
 public class MemberServiceTest {
 
