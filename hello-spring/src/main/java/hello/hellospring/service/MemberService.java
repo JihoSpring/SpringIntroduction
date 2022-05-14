@@ -27,7 +27,7 @@ public class MemberService {
     }
 
     public List<Member> findMembers() {
-        return repository.finalAll();
+        return repository.findAll();
     }
 
     public Optional<Member> findOne(Long id) {
